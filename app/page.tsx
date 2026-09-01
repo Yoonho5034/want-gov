@@ -392,7 +392,7 @@ export default function Home() {
               <span style={{ color: mainColor }}>집 계약 전</span> 꼭
               확인해보세요.
             </p>
-            <p>
+            <p className="mt-2">
               '내일내집'은 디딤돌•신생아특례•보금자리론 등 정책주택대출만
               상담합니다.
             </p>
@@ -412,7 +412,8 @@ export default function Home() {
               <>
                 집은 계약하기 전에
                 <br />
-                <span style={{ color: mainColor }}>정책대출을 알아야</span> 합니다.
+                <span style={{ color: mainColor }}>정책대출을 알아야</span>{" "}
+                합니다.
               </>
             }
             description={
