@@ -144,7 +144,7 @@ const faqItems = [
     question: "아직 집을 계약하지 않았는데 상담 받을 수 있나요?",
     answer: (
       <>
-        <p>네. 오히려 내일내집는 계약 전 상담을 중요하게 생각합니다.</p>
+        <p>네. 오히려 내일내집은 계약 전 상담을 중요하게 생각합니다.</p>
 
         <p>
           현재 소득과 자산, 기존 대출 등의 개인 조건과 구입 예정인 주택의 가격,
@@ -196,11 +196,11 @@ const faqItems = [
     ),
   },
   {
-    question: "내일내집는 은행이나 금융기관인가요?",
+    question: "내일내집은 은행이나 금융기관인가요?",
     answer: (
       <>
         <p>
-          아니요. 내일내집는 대출을 직접 실행하거나 승인하는 금융기관이
+          아니요. 내일내집은 대출을 직접 실행하거나 승인하는 금융기관이
           아닙니다.
         </p>
 
@@ -455,7 +455,7 @@ export default function Home() {
 
                 <div>
                   <h3 className="text-[21px] font-semibold leading-[1.55] text-gray-950 md:text-[24px]">
-                    그래서 <strong className="font-bold">'내일내집'</strong>는
+                    그래서 <strong className="font-bold">'내일내집'</strong>은
                     <br />
                     <span style={{ color: mainColor }}>
                       계약 전에 확인할 수 있는 것부터
@@ -493,7 +493,7 @@ export default function Home() {
           </div>
 
           <p className="mt-10 text-center text-[13px] leading-[1.7] text-gray-400 md:text-[14px]">
-            * 내일내집는 대출 승인 여부를 보장하지 않으며,
+            * 내일내집은 대출 승인 여부를 보장하지 않으며,
             <br />
             계약 전 참고할 수 있는 정보를 제공하는 서비스입니다.
           </p>
@@ -527,7 +527,7 @@ export default function Home() {
             <div className="min-h-[500px] overflow-hidden rounded-[28px] bg-[url('/bg1.png')] bg-cover bg-center bg-no-repeat">
               <div className="flex min-h-[500px] justify-end">
                 <div className="w-full bg-white/75 px-8 py-10 backdrop-blur-[2px] sm:w-[58%] md:px-10 lg:w-1/2">
-                  <h3 className="text-[32px] font-semibold leading-[1.3] tracking-tight text-gray-950 md:text-[44px]">
+                  <h3 className="text-[28px] font-semibold leading-[1.3] tracking-tight text-gray-950 md:text-[40px]">
                     대출과 부동산,
                     <br />
                     <span style={{ color: mainColor }}>두 가지 관점</span>에서
@@ -628,6 +628,18 @@ export default function Home() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+      <section className="bg-stone-100 px-5 ">
+        <div className="mx-auto flex h-[88px] max-w-[1180px] items-center justify-center">
+          <Image
+            src="/logo.png"
+            alt="내일내집 로고"
+            width={150}
+            height={50}
+            priority
+            className="h-auto object-contain"
+          />
         </div>
       </section>
     </main>
