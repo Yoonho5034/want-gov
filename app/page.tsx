@@ -82,7 +82,15 @@ const checkItems = [
 export default function Home() {
   return (
     <main className="w-full">
-      <section className="h-0">로고</section>
+      <section className="">
+        <Image
+          src="/logo.png"
+          alt="로고"
+          width={150}
+          height={50}
+          className="my-5 object-contain"
+        />
+      </section>
       {/* HERO */}
       <section
         className="relative flex min-h-[460px] items-center bg-cover bg-center"
