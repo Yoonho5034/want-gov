@@ -23,9 +23,9 @@ const checkItems = [
     title: "어떤 대출이 맞을까요?",
     description: (
       <>
-        어떤 상품을 검토해야 할지
+        디딤돌? 보금자리론?
         <br />
-        모르겠어요
+        나에게 맞는 대출이 궁금해요
       </>
     ),
   },
@@ -303,10 +303,18 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 mx-auto w-full max-w-[1180px] px-5 py-20 md:px-8">
+          <div>
+            <span
+              className="px-6 py-2 mb-2 rounded-full text-white text-[18px] leading-[1.75] md:text-[20px] font-bold"
+              style={{ backgroundColor: mainColor }}
+            >
+              정책주택대출 전문 상담 서비스
+            </span>
+          </div>
           <h1 className="text-[38px] font-bold leading-[1.3] tracking-tight text-white md:text-[54px]">
             집은 계약하기 전에
             <br />
-            <span style={{ color: mainColor }}>대출부터</span> 확인해야 하니까.
+            <span style={{ color: mainColor }}>정책대출</span> 확인해야 하니까.
           </h1>
 
           <div className="mt-8 space-y-7 text-[16px] leading-[1.75] text-white/90 md:text-[17px]">
@@ -340,10 +348,15 @@ export default function Home() {
               </>
             }
             description={
-              <p>
-                집을 알아보는 순간부터 대출 실행까지,
-                <br />내 조건에 따라 확인해야 할 내용은 달라집니다.
-              </p>
+              <div>
+                <p className="text-[18px] font-bold leading-[1.3] tracking-tight md:text-[28px]">
+                  <span style={{ color: mainColor }} className="">
+                    디딤돌 • 신생아특례 • 보금자리론
+                  </span>
+                  을
+                </p>
+                <p>준비하고 있다면 확인해보세요.</p>
+              </div>
             }
           />
 
@@ -376,10 +389,11 @@ export default function Home() {
             <p className="text-[20px] font-semibold leading-[1.7] text-gray-950 md:text-[24px]">
               하나라도 해당된다면,
               <br />
-              계약 전에 <span style={{ color: mainColor }}>
-                내 조건부터
-              </span>{" "}
+              <span style={{ color: mainColor }}>집 계약 전</span> 꼭
               확인해보세요.
+            </p>
+            <p>
+              '내일내집'은 디딤돌•신생아특례•보금자리론 등 정책주택대출만 상담합니다.
             </p>
           </div>
         </div>
