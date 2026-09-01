@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image2.png",
 
         width: 1200,
 
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     description:
       "디딤돌·신생아특례·보금자리론, 계약 전에 내 조건부터 확인하세요.",
 
-    images: ["/og-image.png"],
+    images: ["/og-image2.png"],
   },
 
   robots: {
