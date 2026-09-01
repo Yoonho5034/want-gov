@@ -4,6 +4,8 @@ import Image from "next/image";
 /*                                   DATA                                     */
 /* -------------------------------------------------------------------------- */
 
+const mainColor = "#1866e1";
+
 const checkItems = [
   {
     image: "/image1.png",
@@ -55,8 +57,7 @@ const checkItems = [
     description: (
       <>
         휴직, 이직, 프리랜서 등
-        <br />
-        내 소득이 어떻게 적용될지 궁금해요
+        <br />내 소득이 어떻게 적용될지 궁금해요
       </>
     ),
   },
@@ -230,7 +231,10 @@ function SectionHeading({
 }) {
   return (
     <div className="text-center">
-      <p className="text-sm font-semibold tracking-[0.18em] text-blue-600">
+      <p
+        className="text-sm font-semibold tracking-[0.18em]"
+        style={{ color: mainColor }}
+      >
         {eyebrow}
       </p>
 
@@ -301,7 +305,7 @@ export default function Home() {
           <h1 className="text-[38px] font-bold leading-[1.3] tracking-tight text-white md:text-[54px]">
             집은 계약하기 전에
             <br />
-            <span className="text-blue-500">대출부터</span> 확인해야 하니까.
+            <span style={{ color: mainColor }}>대출부터</span> 확인해야 하니까.
           </h1>
 
           <div className="mt-8 space-y-7 text-[16px] leading-[1.75] text-white/90 md:text-[17px]">
@@ -330,14 +334,14 @@ export default function Home() {
             eyebrow="LOAN CHECK"
             title={
               <>
-                혹시 <span className="text-blue-600">이런 상황</span>이신가요?
+                혹시 <span style={{ color: mainColor }}>이런 상황</span>
+                이신가요?
               </>
             }
             description={
               <p>
                 집을 알아보는 순간부터 대출 실행까지,
-                <br />
-                내 조건에 따라 확인해야 할 내용은 달라집니다.
+                <br />내 조건에 따라 확인해야 할 내용은 달라집니다.
               </p>
             }
           />
@@ -371,7 +375,9 @@ export default function Home() {
             <p className="text-[20px] font-semibold leading-[1.7] text-gray-950 md:text-[24px]">
               하나라도 해당된다면,
               <br />
-              계약 전에 <span className="text-blue-600">내 조건부터</span>{" "}
+              계약 전에 <span style={{ color: mainColor }}>
+                내 조건부터
+              </span>{" "}
               확인해보세요.
             </p>
           </div>
@@ -390,7 +396,7 @@ export default function Home() {
               <>
                 집은 계약하기 전에
                 <br />
-                <span className="text-blue-600">대출을 알아야</span> 합니다.
+                <span style={{ color: mainColor }}>대출을 알아야</span> 합니다.
               </>
             }
             description={
@@ -450,7 +456,7 @@ export default function Home() {
                   <h3 className="text-[21px] font-semibold leading-[1.55] text-gray-950 md:text-[24px]">
                     그래서 <strong className="font-bold">'몇프로'</strong>는
                     <br />
-                    <span className="text-blue-600">
+                    <span style={{ color: mainColor }}>
                       계약 전에 확인할 수 있는 것부터
                     </span>{" "}
                     확인합니다.
@@ -505,7 +511,8 @@ export default function Home() {
               <>
                 경험은 사람에게 있지만,
                 <br />
-                기준은 <span className="text-blue-600">몇프로</span>에 남습니다.
+                기준은 <span style={{ color: mainColor }}>몇프로</span>에
+                남습니다.
               </>
             }
             description={
@@ -522,14 +529,17 @@ export default function Home() {
                   <h3 className="text-[32px] font-semibold leading-[1.3] tracking-tight text-gray-950 md:text-[44px]">
                     대출과 부동산,
                     <br />
-                    <span className="text-blue-600">두 가지 관점</span>에서
+                    <span style={{ color: mainColor }}>두 가지 관점</span>에서
                     <br />
                     확인합니다.
                   </h3>
 
                   <div className="mt-12 space-y-7">
                     <div>
-                      <p className="text-sm font-semibold tracking-[0.12em] text-blue-600">
+                      <p
+                        className="text-sm font-semibold tracking-[0.12em]"
+                        style={{ color: mainColor }}
+                      >
                         01
                       </p>
                       <h4 className="mt-2 text-[22px] font-semibold text-gray-950">
@@ -538,7 +548,10 @@ export default function Home() {
                     </div>
 
                     <div>
-                      <p className="text-sm font-semibold tracking-[0.12em] text-blue-600">
+                      <p
+                        className="text-sm font-semibold tracking-[0.12em]"
+                        style={{ color: mainColor }}
+                      >
                         02
                       </p>
                       <h4 className="mt-2 text-[22px] font-semibold text-gray-950">
@@ -571,7 +584,7 @@ export default function Home() {
                 <br />
                 동료들과 함께 현장의 노하우를
                 <br />
-                <span className="font-semibold text-blue-600">
+                <span className="font-semibold" style={{ color: mainColor }}>
                   몇프로의 상담 기준
                 </span>
                 에 담았습니다.
@@ -602,7 +615,9 @@ export default function Home() {
                 className="border-b border-gray-200 py-9"
               >
                 <h3 className="text-[17px] font-semibold leading-[1.5] text-gray-950 md:text-[18px]">
-                  <span className="mr-2 text-blue-600">Q.</span>
+                  <span className="mr-2" style={{ color: mainColor }}>
+                    Q.
+                  </span>
                   {item.question}
                 </h3>
 
