@@ -126,7 +126,7 @@ const faqItems = [
     answer: (
       <>
         <p>
-          아니요. 몇프로의 상담은 대출 승인이나 한도를 보장하는 서비스가
+          아니요. 내일내집의 상담은 대출 승인이나 한도를 보장하는 서비스가
           아닙니다.
         </p>
 
@@ -144,7 +144,7 @@ const faqItems = [
     question: "아직 집을 계약하지 않았는데 상담 받을 수 있나요?",
     answer: (
       <>
-        <p>네. 오히려 몇프로는 계약 전 상담을 중요하게 생각합니다.</p>
+        <p>네. 오히려 내일내집는 계약 전 상담을 중요하게 생각합니다.</p>
 
         <p>
           현재 소득과 자산, 기존 대출 등의 개인 조건과 구입 예정인 주택의 가격,
@@ -167,7 +167,7 @@ const faqItems = [
         <p>
           네, 다를 수 있습니다.
           <br />
-          몇프로의 상담은 고객님이 제공한 정보와 상담 당시 확인 가능한 기준을
+          내일내집의 상담은 고객님이 제공한 정보와 상담 당시 확인 가능한 기준을
           바탕으로 한 사전 검토 결과입니다.
         </p>
 
@@ -196,11 +196,12 @@ const faqItems = [
     ),
   },
   {
-    question: "몇프로는 은행이나 금융기관인가요?",
+    question: "내일내집는 은행이나 금융기관인가요?",
     answer: (
       <>
         <p>
-          아니요. 몇프로는 대출을 직접 실행하거나 승인하는 금융기관이 아닙니다.
+          아니요. 내일내집는 대출을 직접 실행하거나 승인하는 금융기관이
+          아닙니다.
         </p>
 
         <p>
@@ -282,7 +283,7 @@ export default function Home() {
         <div className="mx-auto flex h-[88px] max-w-[1180px] items-center">
           <Image
             src="/logo.png"
-            alt="몇프로 로고"
+            alt="내일내집 로고"
             width={150}
             height={50}
             priority
@@ -391,7 +392,7 @@ export default function Home() {
       <section className="bg-white px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1180px]">
           <SectionHeading
-            eyebrow="WHY 몇프로"
+            eyebrow="WHY 내일내집"
             title={
               <>
                 집은 계약하기 전에
@@ -454,7 +455,7 @@ export default function Home() {
 
                 <div>
                   <h3 className="text-[21px] font-semibold leading-[1.55] text-gray-950 md:text-[24px]">
-                    그래서 <strong className="font-bold">'몇프로'</strong>는
+                    그래서 <strong className="font-bold">'내일내집'</strong>는
                     <br />
                     <span style={{ color: mainColor }}>
                       계약 전에 확인할 수 있는 것부터
@@ -492,7 +493,7 @@ export default function Home() {
           </div>
 
           <p className="mt-10 text-center text-[13px] leading-[1.7] text-gray-400 md:text-[14px]">
-            * 몇프로는 대출 승인 여부를 보장하지 않으며,
+            * 내일내집는 대출 승인 여부를 보장하지 않으며,
             <br />
             계약 전 참고할 수 있는 정보를 제공하는 서비스입니다.
           </p>
@@ -511,12 +512,12 @@ export default function Home() {
               <>
                 경험은 사람에게 있지만,
                 <br />
-                기준은 <span style={{ color: mainColor }}>몇프로</span>에
+                기준은 <span style={{ color: mainColor }}>내일내집</span>에
                 남습니다.
               </>
             }
             description={
-              <p>현장의 경험을 몇프로의 상담 기준으로 만들었습니다.</p>
+              <p>현장의 경험을 내일내집의 상담 기준으로 만들었습니다.</p>
             }
           />
 
@@ -569,7 +570,7 @@ export default function Home() {
               <h3 className="text-[22px] font-semibold leading-[1.6] text-gray-950 md:text-[24px]">
                 약 15년의 현장 경험에서
                 <br />
-                몇프로의 기준이 시작됐습니다.
+                내일내집의 기준이 시작됐습니다.
               </h3>
 
               <div className="mt-9 space-y-2 text-[15px] leading-[1.8] text-gray-600 md:text-[16px]">
@@ -585,7 +586,7 @@ export default function Home() {
                 동료들과 함께 현장의 노하우를
                 <br />
                 <span className="font-semibold" style={{ color: mainColor }}>
-                  몇프로의 상담 기준
+                  내일내집의 상담 기준
                 </span>
                 에 담았습니다.
               </p>
@@ -604,7 +605,7 @@ export default function Home() {
             eyebrow="FAQ"
             title="자주 묻는 질문"
             description={
-              <p>몇프로 상담 전 많이 궁금해하시는 내용을 정리했습니다.</p>
+              <p>내일내집 상담 전 많이 궁금해하시는 내용을 정리했습니다.</p>
             }
           />
 
