@@ -303,9 +303,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 mx-auto w-full max-w-[1180px] px-5 py-20 md:px-8">
-          <div>
+          <div className="mb-2">
             <span
-              className="px-6 py-2 mb-2 rounded-full text-white text-[18px] leading-[1.75] md:text-[20px] font-bold"
+              className="px-6 py-2 rounded-full text-white text-[18px] leading-[1.75] md:text-[20px] font-bold"
               style={{ backgroundColor: mainColor }}
             >
               정책주택대출 전문 상담 서비스
@@ -393,7 +393,8 @@ export default function Home() {
               확인해보세요.
             </p>
             <p>
-              '내일내집'은 디딤돌•신생아특례•보금자리론 등 정책주택대출만 상담합니다.
+              '내일내집'은 디딤돌•신생아특례•보금자리론 등 정책주택대출만
+              상담합니다.
             </p>
           </div>
         </div>
@@ -411,7 +412,7 @@ export default function Home() {
               <>
                 집은 계약하기 전에
                 <br />
-                <span style={{ color: mainColor }}>대출을 알아야</span> 합니다.
+                <span style={{ color: mainColor }}>정책대출을 알아야</span> 합니다.
               </>
             }
             description={
