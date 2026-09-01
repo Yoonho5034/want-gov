@@ -4,7 +4,7 @@ import Image from "next/image";
 /*                                   DATA                                     */
 /* -------------------------------------------------------------------------- */
 
-const mainColor = "#1866e1";
+const mainColor = "#0080ff";
 
 const checkItems = [
   {
@@ -299,7 +299,7 @@ export default function Home() {
         className="relative flex min-h-[520px] items-center bg-cover bg-center"
         style={{ backgroundImage: "url('/bg2.png')" }}
       >
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 mx-auto w-full max-w-[1180px] px-5 py-20 md:px-8">
           <h1 className="text-[38px] font-bold leading-[1.3] tracking-tight text-white md:text-[54px]">
