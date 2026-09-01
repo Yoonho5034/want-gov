@@ -282,7 +282,7 @@ export default function Home() {
       <header className="bg-white px-5">
         <div className="mx-auto flex h-[88px] max-w-[1180px] items-center">
           <Image
-            src="/logo.png"
+            src="/logo2.png"
             alt="내일내집 로고"
             width={150}
             height={50}
@@ -633,7 +633,7 @@ export default function Home() {
       <section className="bg-stone-100 px-5 ">
         <div className="mx-auto flex h-[88px] max-w-[1180px] items-center justify-center">
           <Image
-            src="/logo.png"
+            src="/logo2.png"
             alt="내일내집 로고"
             width={150}
             height={50}
